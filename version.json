@@ -1,6 +1,6 @@
 {
   "version": "2.1.2",
-  "versionlibraries":"1.8.0",
+  "versionlibraries":"1.8.1",
   "jar": {
     "filename": "WhatsAppSenderG.jar",
     "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/WhatsAppSenderG.jar",
@@ -286,6 +286,13 @@
       "name": "netty-common.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/023-netty-common-4.1.121.Final.jar",
       "checksum": "58ddcad98fa2dbe69c9080e53e56e65cd50f61a3e45106b423cbad06b572a689"
+    },
+    {
+      "filename": "webdrivermanager-5.3.2.jar",
+      "version": "5.3.2",
+      "name": "webdrivermanager.jar",
+      "url": "https://github.com/JuanSystems/WhatsAppSenderUpdate/raw/main/lib/webdrivermanager-5.3.2.jar",
+      "checksum": "9c73903049f7b28387eed526cf32d31a0eca3a98068fa3132a598219d0f3345b"
     }
   ]
 }
