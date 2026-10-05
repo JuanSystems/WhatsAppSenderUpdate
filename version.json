@@ -1,11 +1,11 @@
 {
-  "version": "2.3.5",
-  "versionlibraries":"1.8.3",
+  "version": "2.3.6",
+  "versionlibraries": "1.8.4",
   "jar": {
     "filename": "WhatsAppSenderG.jar",
     "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/WhatsAppSenderG.jar",
-	"urljson":"https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/version.json",
-    "checksum": "767fa260144b8100a7cf82f4596fca8a60114a344016f5decdbc403b6c8b6ecd"
+    "urljson": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/version.json",
+    "checksum": "575998166785fe41466dad7a6daa90d1d7a956e4038c9ba1df3331275eb098bd"
   },
   "libraries": [
     {
@@ -15,21 +15,7 @@
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/commons-exec-1.3.jar",
       "checksum": "cb49812dc1bfb0ea4f20f398bcae1a88c6406e213e67f7524fb10d4f8ad9347b"
     },
-	{
-      "filename": "gson-2.10.1.jar",
-      "version": "2.10.1",
-      "name": "gson.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/gson-2.10.1.jar",
-      "checksum": "4241c14a7727c34feea6507ec801318a3d4a90f070e4525681079fb94ee4c593"
-    },
     {
-      "filename": "guava-25.0-jre.jar",
-      "version": "25.0",
-      "name": "guava.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/guava-25.0-jre.jar",
-      "checksum": "3fd4341776428c7e0e5c18a7c10de129475b69ab9d30aeafbb5c277bb6074fa9"
-    },
-	{
       "filename": "jsoup-1.16.1.jar",
       "version": "1.16.1",
       "name": "jsoup.jar",
@@ -43,200 +29,243 @@
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/JTattoo-1.6.13.jar",
       "checksum": "e7be443a9e6f611efcfb6c3da975f3c5b7e5eb74b7aec81c906419bcfef9e02d"
     },
-	{
-      "filename": "selenium-api-3.141.59.jar",
-      "version": "3.141.59",
+    {
+      "filename": "guava-33.0.0-jre.jar",
+      "version": "33.0.0",
+      "name": "guava.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/guava-33.0.0-jre.jar",
+      "checksum": "f4d85c3e4d411694337cb873abea09b242b664bb013320be6105327c45991537"
+    },
+    {
+      "filename": "selenium-api-4.10.0.jar",
+      "version": "4.10.0",
       "name": "selenium-api.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-api-3.141.59.jar",
-      "checksum": "8bfd5a736eccfc08866301ffc9b7f529e55976355c5799bed8392486df64dee5"
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-api-4.10.0.jar",
+      "checksum": "eb807bcef391728a3e2e27a0daa5d39bfb76418f576d3aed650bccbe3de2452c"
     },
     {
-      "filename": "selenium-chrome-driver-3.141.59.jar",
-      "version": "3.141.59",
+      "filename": "selenium-chrome-driver-4.10.0.jar",
+      "version": "4.10.0",
       "name": "selenium-chrome-driver.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-chrome-driver-3.141.59.jar",
-      "checksum": "716948b82695f2acb82f9aed23bc2b421714bb0966364146ef62b2cfae276dd0"
-    },
-	{
-      "filename": "selenium-devtools-v91-4.0.0-beta-4.jar",
-      "version": "4.0.0",
-      "name": "selenium-devtools-v91.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-devtools-v91-4.0.0-beta-4.jar",
-      "checksum": "3be58d31b3fc43eab05d50255db71d32738714f2eaf0ff314b940f85b32e1892"
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-chrome-driver-4.10.0.jar",
+      "checksum": "d4f6c07729ae87c2dc372224a04f83d05e8a032f435045338fdf81c09ae52314"
     },
     {
-      "filename": "selenium-java-4.8.3.jar",
-      "version": "4.8.3",
-      "name": "selenium-java.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-java-4.8.3.jar",
-      "checksum": "42b87c6e78d7261426405610c8286a58a58006dc191781e3930aca8e66cbdee8"
+      "filename": "selenium-chromium-driver-4.10.0.jar",
+      "version": "4.10.0",
+      "name": "selenium-chromium-driver.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-chromium-driver-4.10.0.jar",
+      "checksum": "be44165267bc6fb503071e97c22ed7e95acbd7bc3f5052a7052dcb685b1cab8e"
     },
-	{
-      "filename": "selenium-remote-driver-3.141.59.jar",
-      "version": "3.141.59",
+    {
+      "filename": "selenium-edge-driver-4.10.0.jar",
+      "version": "4.10.0",
+      "name": "selenium-edge-driver.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-edge-driver-4.10.0.jar",
+      "checksum": "6fb141e3ae3a1e897b146e50f0aadea86ecd33aafc7f352f7fdad6fe2310970b"
+    },
+    {
+      "filename": "selenium-http-4.10.0.jar",
+      "version": "4.10.0",
+      "name": "selenium-http.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-http-4.10.0.jar",
+      "checksum": "3d9e98a01b838bad59e3127e7b298757357eab9e7db388c41ab454ddf1f219a7"
+    },
+    {
+      "filename": "selenium-json-4.10.0.jar",
+      "version": "4.10.0",
+      "name": "selenium-json.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-json-4.10.0.jar",
+      "checksum": "2330e6ffde513fcd7b4f0e40b7f6030cfba79270101a932cc7ab4548b5e4c836"
+    },
+    {
+      "filename": "selenium-remote-driver-4.10.0.jar",
+      "version": "4.10.0",
       "name": "selenium-remote-driver.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-remote-driver-3.141.59.jar",
-      "checksum": "9829fe57adf36743d785d0c2e7db504ba3ba0a3aacac652b8867cc854d2dfc45"
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-remote-driver-4.10.0.jar",
+      "checksum": "ddacd07b042db42ee71efade48d4db61e65b295647e335c816002104ae09084f"
     },
     {
-      "filename": "selenium-support-3.141.59.jar",
-      "version": "3.141.59",
+      "filename": "selenium-support-4.10.0.jar",
+      "version": "4.10.0",
       "name": "selenium-support.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-support-3.141.59.jar",
-      "checksum": "2c74196d15277ce6003454d72fc3434091dbf3ba65060942719ba551509404d8"
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-support-4.10.0.jar",
+      "checksum": "c8f63907b5b5ef8b93c7d2a6d230192512685285f12132ff79bf23f1be9673e0"
     },
-	{
+    {
+      "filename": "netty-buffer-4.1.108.Final.jar",
+      "version": "4.1.108",
+      "name": "netty-buffer-old.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/netty-buffer-4.1.108.Final.jar",
+      "checksum": "348e3ff64c7129ca661bc09d4bdda09c824474cfd1f5918368bdc56f5ee17f79"
+    },
+    {
+      "filename": "netty-common-4.1.108.Final.jar",
+      "version": "4.1.108",
+      "name": "netty-common-old.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/netty-common-4.1.108.Final.jar",
+      "checksum": "8e3649fc6bab84a88ad47af82e38f9c36ab3725de478632c8a59e4bd74d16e08"
+    },
+    {
+      "filename": "reactive-streams-1.0.3.jar",
+      "version": "1.0.3",
+      "name": "reactive-streams.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/reactive-streams-1.0.3.jar",
+      "checksum": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865"
+    },
+    {
       "filename": "thumbnailator-0.4.8.jar",
       "version": "0.4.8",
       "name": "thumbnailator.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/thumbnailator-0.4.8.jar",
       "checksum": "baa81866b0d0cb3bdbb3a2c5141e3f91e1f037baa94b7efc645b2be0b7f1d95c"
     },
-	{
+    {
       "filename": "okhttp-3.11.0.jar",
       "version": "3.11.0",
       "name": "okhttp.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/okhttp-3.11.0.jar",
       "checksum": "e27c7742448f816da1cac72b4ca283b0d7920749e09f5dd0ac017e40714a2efe"
     },
-	{
+    {
       "filename": "okio-1.14.0.jar",
       "version": "1.14.0",
       "name": "okio.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/okio-1.14.0.jar",
       "checksum": "4633c331f50642ebe795dc089d6a5928aff43071c9d17e7840a009eea2fe95a3"
-    },{
+    },
+    {
       "filename": "jxl-2.6.jar",
       "version": "2.6",
       "name": "jxl.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/jxl-2.6.jar",
       "checksum": "96ae77f3f378169a81630876c5b7105e070ed941bf8f9f7062c18f7aa040d808"
-    },{
+    },
+    {
       "filename": "poi-5.2.5.jar",
       "version": "5.2.5",
       "name": "poi.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/poi-5.2.5.jar",
       "checksum": "352e1b44a5777af2df3d7dc408cda9f75f932d0e0125fa1a7d336a13c0a663a7"
-    },{
+    },
+    {
       "filename": "commons-io-2.15.0.jar",
       "version": "2.15.0",
       "name": "commons-io.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/commons-io-2.15.0.jar",
       "checksum": "a328dad730921d197b6a9b195dffa00e41c974c2dac8fe37e84d31706bca7792"
-    },{
+    },
+    {
       "filename": "log4j-api-2.21.1.jar",
       "version": "2.21.1",
       "name": "log4j-api.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/log4j-api-2.21.1.jar",
       "checksum": "1db48e180881bef1deb502022006a025a248d8f6a26186789b0c7ce487c602d6"
-    },{
+    },
+    {
+      "filename": "failsafe-3.3.1.jar",
+      "version": "3.3.1",
+      "name": "failsafe.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/failsafe-3.3.1.jar",
+      "checksum": "af90a069c56918d9ddbef7bbd5ef5a25c1eb8bef459ae1ee89c1db21cd5f6bf5"
+    },
+    {
       "filename": "log4j-core-2.20.0.jar",
       "version": "2.20.0",
       "name": "log4j-core.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/log4j-core-2.20.0.jar",
       "checksum": "d6180f877ef1e2f0ba525147c2edccabbbe9d5f2977b31e20f40b77e3a160ef5"
-    },{
+    },
+    {
       "filename": "poi-ooxml-5.2.5.jar",
       "version": "5.2.5",
       "name": "poi-ooxml.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/poi-ooxml-5.2.5.jar",
       "checksum": "c6ad01a10cefa1d2a9c1b552bd4293a3eca29b513353f1ec814041d38da9ec5b"
-    },{
+    },
+    {
       "filename": "commons-compress-1.25.0.jar",
       "version": "1.25.0",
       "name": "commons-compress.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/commons-compress-1.25.0.jar",
       "checksum": "d0ec8014ebbb0749f471803122b21796afddf2e98e194e4374622e5fbaf69f49"
-    },{
+    },
+    {
       "filename": "xmlbeans-5.2.0.jar",
       "version": "5.2.0",
       "name": "xmlbeans.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/xmlbeans-5.2.0.jar",
       "checksum": "5a344f323c049b7024edd39bbd58a38e77eb44218aad2794879e7f4ac3ca1de1"
-    },{
+    },
+    {
       "filename": "commons-collections4-4.4.jar",
       "version": "4.4",
       "name": "commons-collections.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/commons-collections4-4.4.jar",
       "checksum": "1df8b9430b5c8ed143d7815e403e33ef5371b2400aadbe9bda0883762e0846d1"
-    },{
+    },
+    {
       "filename": "poi-ooxml-lite-5.2.5.jar",
       "version": "5.2.5",
       "name": "poi-ooxml-lite.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/poi-ooxml-lite-5.2.5.jar",
       "checksum": "6d4ce6736c422c52e47ffbfa08c784e1b8c188efb69583ac001a0ab16022d774"
-    },{
+    },
+    {
       "filename": "jna-jpms-5.14.0.jar",
       "version": "5.14.0",
       "name": "jna-jpms.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/jna-jpms-5.14.0.jar",
       "checksum": "204912ead5e0891f53aab7be346b75758abbe38bd9fb2d320bfa21bbca6905b7"
-    },{
+    },
+    {
       "filename": "jna-platform-jpms-5.14.0.jar",
       "version": "5.14.0",
       "name": "jna-platform-jpms.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/jna-platform-jpms-5.14.0.jar",
       "checksum": "60dd009545f8cef45a9e6e31cace03dc28ab335220a64b24083045eddc351d45"
-    },{
+    },
+    {
       "filename": "oshi-core-5.8.5.jar",
       "version": "5.8.5",
       "name": "oshi-core.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/oshi-core-5.8.5.jar",
       "checksum": "fe16bd8836eecf3d152585c2151322273b68237d13f223e662e0db959dd13680"
-    },{
+    },
+    {
       "filename": "slf4j-api-1.7.32.jar",
       "version": "1.7.32",
       "name": "slf4j-api.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/slf4j-api-1.7.32.jar",
       "checksum": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be"
-    },{
+    },
+    {
       "filename": "slf4j-simple-1.7.32.jar",
       "version": "1.7.32",
       "name": "slf4j-simple.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/slf4j-simple-1.7.32.jar",
       "checksum": "d2fdd7b73ca2019a2062d145a0d86179a58f98c8c3e35ca7c735a27b3b5621c3"
-    },{
+    },
+    {
       "filename": "dec-0.1.2.jar",
       "version": "0.1.2",
       "name": "dec.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/dec-0.1.2.jar",
       "checksum": "615c0c3efef990d77831104475fba6a1f7971388691d4bad1471ad84101f6d52"
-    },{
+    },
+    {
       "filename": "commons-lang3-3.15.0.jar",
-      "version": "3.15.5",
+      "version": "3.15.0",
       "name": "commons-lang3.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/commons-lang3-3.15.0.jar",
       "checksum": "4905090022def3809e97963832fc8b2421fda800853c94d3cdbf1ad3011d9756"
-    },{
-      "filename": "httpclient5-5.2.1.jar",
-      "version": "5.2.1",
-      "name": "httpclient5.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/httpclient5-5.2.1.jar",
-      "checksum": "9355f3876baf82fec13ced22c12b62d57536230836406d359459128e4f73ed51"
-    },{
-      "filename": "httpcore5-5.2.jar",
-      "version": "5.5.2",
-      "name": "httpcore5.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/httpcore5-5.2.jar",
-      "checksum": "293321cbf594d79ea8a0cb0214f75f146d17f088be17ad5ce11c2fe864df124c"
-    },{
-      "filename": "httpcore5-h2-5.2.jar",
-      "version": "5.2",
-      "name": "httpcore5-h.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/httpcore5-h2-5.2.jar",
-      "checksum": "5a087fb8c619979d492a83546f351ddadf32b28cc6a32923229f3fc777171578"
-    },{
+    },
+    {
       "filename": "commons-codec-1.15.jar",
       "version": "1.15",
       "name": "commons-codec.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/commons-codec-1.15.jar",
       "checksum": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
-    },{
-      "filename": "webdrivermanager-5.9.2.jar",
-      "version": "5.9.2",
-      "name": "webdrivermanager.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/webdrivermanager-5.9.2.jar",
-      "checksum": "964dea6ea00b2df28bb9aae3e92be5bfd8735e8b4c893b0f6fb8c4435aa541ca"
     },
     {
       "filename": "022-gson-2.13.1.jar",
@@ -274,27 +303,6 @@
       "checksum": "146e59cb7957b2250b685adb9fe5dcd672b8dae602ac9be42543cf44d07d0187"
     },
     {
-      "filename": "023-netty-buffer-4.1.121.Final.jar",
-      "version": "4.1.121",
-      "name": "netty-buffer.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/023-netty-buffer-4.1.121.Final.jar",
-      "checksum": "7d6ce32479f6f1326637ba118061bad31c3f7279f5fc2887aae8cba2526dcbff"
-    },
-    {
-      "filename": "023-netty-common-4.1.121.Final.jar",
-      "version": "4.1.121",
-      "name": "netty-common.jar",
-      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/023-netty-common-4.1.121.Final.jar",
-      "checksum": "58ddcad98fa2dbe69c9080e53e56e65cd50f61a3e45106b423cbad06b572a689"
-    },
-    {
-      "filename": "webdrivermanager-5.3.2.jar",
-      "version": "5.3.2",
-      "name": "webdrivermanager.jar",
-      "url": "https://github.com/JuanSystems/WhatsAppSenderUpdate/raw/main/lib/webdrivermanager-5.3.2.jar",
-      "checksum": "9c73903049f7b28387eed526cf32d31a0eca3a98068fa3132a598219d0f3345b"
-    },
-    {
       "filename": "007-logback-classic-1.3.1.jar",
       "version": "1.3.1",
       "name": "logback-classic.jar",
@@ -321,6 +329,104 @@
       "name": "flatlaf-extras.jar",
       "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/flatlaf-extras-3.7.2.jar",
       "checksum": "7d03612d5c11d27a4ac714e79b11c73405d07f84a3214fe4ae091daadc8b5166"
+    },
+    {
+      "filename": "async-http-client-2.12.3.jar",
+      "version": "2.12.3",
+      "name": "async-http-client.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/async-http-client-2.12.3.jar",
+      "checksum": "107a4ace7a3586f8e8a027c6d7e9933c9ae56eeb1a6df347eed2e7b552e4e5ed"
+    },
+    {
+      "filename": "async-http-client-netty-utils-2.12.3.jar",
+      "version": "2.12.3",
+      "name": "async-http-client-netty-utils.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/async-http-client-netty-utils-2.12.3.jar",
+      "checksum": "e0bb76bbca0c85c68cab25dbed7989b00db5da8627cf69258f398d7d89bc9067"
+    },
+    {
+      "filename": "httpclient5-5.4.jar",
+      "version": "5.4",
+      "name": "httpclient5-54.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/httpclient5-5.4.jar",
+      "checksum": "40a72f6dca0f20d304b4bcb045a020522a6ada0b69aff48398988ecab5f6badc"
+    },
+    {
+      "filename": "httpcore5-5.4.jar",
+      "version": "5.4",
+      "name": "httpcore5-54.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/httpcore5-5.4.jar",
+      "checksum": "cec2981fa7f520efb63f0787c24f10af2679e31f9f75c448c4dde40a3ae8100d"
+    },
+    {
+      "filename": "httpcore5-h2-5.4.jar",
+      "version": "5.4",
+      "name": "httpcore5-h2-54.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/httpcore5-h2-5.4.jar",
+      "checksum": "2e0f4ace15db2d1609c2b06eca6012e7582afe4a99ad8d15073f62dd8edb3460"
+    },
+    {
+      "filename": "netty-codec-4.1.108.Final.jar",
+      "version": "4.1.108",
+      "name": "netty-codec.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/netty-codec-4.1.108.Final.jar",
+      "checksum": "32c220dea93756fba28f9302481bc657738cc40d07440daa985a2ba21df226f1"
+    },
+    {
+      "filename": "netty-codec-http-4.1.108.Final.jar",
+      "version": "4.1.108",
+      "name": "netty-codec-http.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/netty-codec-http-4.1.108.Final.jar",
+      "checksum": "2bdb276d40c2293014638a7e065bea977b574fb6a978e1197f514f2e13b695a6"
+    },
+    {
+      "filename": "netty-codec-http2-4.1.108.Final.jar",
+      "version": "4.1.108",
+      "name": "netty-codec-http2.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/netty-codec-http2-4.1.108.Final.jar",
+      "checksum": "a813e1810f7c1959b90fc7f221e03ce15e66005ee56e29cd0d68312b9679c772"
+    },
+    {
+      "filename": "netty-handler-4.1.108.Final.jar",
+      "version": "4.1.108",
+      "name": "netty-handler.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/netty-handler-4.1.108.Final.jar",
+      "checksum": "55b2458011527d94abc868086afd039cd00cc3a547e7322569e0fb4f906d9d80"
+    },
+    {
+      "filename": "netty-reactive-streams-2.0.4.jar",
+      "version": "2.0.4",
+      "name": "netty-reactive-streams.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/netty-reactive-streams-2.0.4.jar",
+      "checksum": "eafc52d500b49e891db095ee7baac0420aea8a97015ab7671ba1f1ccabf799d2"
+    },
+    {
+      "filename": "netty-resolver-4.1.108.Final.jar",
+      "version": "4.1.108",
+      "name": "netty-resolver.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/netty-resolver-4.1.108.Final.jar",
+      "checksum": "55279fdcf6c0e1819b6561cc70b0eb2de1b1cf1ef5635fc46334d7e06faa9dd9"
+    },
+    {
+      "filename": "netty-transport-4.1.108.Final.jar",
+      "version": "4.1.108",
+      "name": "netty-transport.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/netty-transport-4.1.108.Final.jar",
+      "checksum": "fef2ec66fe01aa89734db40f292676719da3985786512fc31a9efe1ca4d2e0ff"
+    },
+    {
+      "filename": "selenium-manager-4.10.0.jar",
+      "version": "4.10.0",
+      "name": "selenium-manager.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/selenium-manager-4.10.0.jar",
+      "checksum": "841efe0ee17fbcc35e1ff0884721e6bf3091959d920fb29e24adedb30fbeed47"
+    },
+    {
+      "filename": "webdrivermanager-6.3.3.jar",
+      "version": "6.3.3",
+      "name": "webdrivermanager-6.jar",
+      "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/lib/webdrivermanager-6.3.3.jar",
+      "checksum": "3a79a2d13573282c51a3bc83aa3dd32271725194a5d412ce1a647abba86d75ea"
     }
   ]
 }
