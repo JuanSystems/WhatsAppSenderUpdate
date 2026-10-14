@@ -1,11 +1,11 @@
 {
-  "version": "2.3.6",
+  "version": "2.3.7",
   "versionlibraries": "1.8.4",
   "jar": {
     "filename": "WhatsAppSenderG.jar",
     "url": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/WhatsAppSenderG.jar",
     "urljson": "https://raw.githubusercontent.com/JuanSystems/WhatsAppSenderUpdate/main/version.json",
-    "checksum": "575998166785fe41466dad7a6daa90d1d7a956e4038c9ba1df3331275eb098bd"
+    "checksum": "fecb7d6e52ced45fe1dc0618494c9d9eed08aa1d99cc6597a92e646d1a877356"
   },
   "libraries": [
     {
